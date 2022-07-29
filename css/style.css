@@ -20,6 +20,44 @@
 .logo {
     height: 8rem;
 }
+.icon-menu{
+    display: none;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #085761;
+    text-align: center;
+}
+.menu a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+
+.menu-ativado {
+    margin-top: 155px;
+    transition: 1s;
+}
+.menu-desativado {
+    margin-top: 30px;
+    transition: 1s;
+}
+.hiden {
+    transition: 1s;
+    height: 0;
+}
+
+.show {
+    transition: 1s;
+    height: 150px;
+}
+
 
 /* *************************** */
 /* NAVIGATION */

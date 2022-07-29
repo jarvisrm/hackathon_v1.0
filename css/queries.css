@@ -145,8 +145,13 @@
         pointer-events: none;
 
         /* 3) Hide it from screen readers */
-        visibility: hidden;
+        display: none;
     }
+
+    .icon-menu{
+        display: inline;
+    }
+    
 
     .nav-open .main-nav {
         opacity: 1;
